@@ -1,0 +1,38 @@
+@use 'variables' as *;
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: sans-serif;
+}
+
+.content-width {
+  max-width: $content-width;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #fffffe;
+  font-family: sans-serif;
+}
+
+button {
+  padding: 0.5em;
+  border-radius: 0.5em;
+  font-size: 1.2rem;
+  background: orange;
+  color: #0f0e17;
+  border: none;
+  box-shadow: none;
+  margin: 0.5rem;
+  font-weight: bold;
+
+  &[disabled] {
+    background: #a7a9be;
+  }
+}

@@ -1,0 +1,23 @@
+.card {
+  background-color: beige;
+  height: 15vh;
+
+
+  .card-num-display {
+    background-color: chocolate;
+    border-radius: 50%;
+    color: cornsilk;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 30px !important;
+    height: 30px;
+  }
+  .btn-warning {
+    width: 20vw;
+  }
+}
+.card.reverse {
+  background-color: cornflowerblue;
+  color: cornsilk;
+}
